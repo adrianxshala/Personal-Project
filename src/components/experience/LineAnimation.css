@@ -1,0 +1,42 @@
+.line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+
+.label {
+  margin-bottom: 5px; /* Space between label and line */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+ 
+}
+
+.line {
+  height: 1px; /* Adjust the height as needed */
+  background:rgb(97 218 251);
+  transition: width 4s ease-in-out; 
+  width: 0; /* Initial width */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-top: -120px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

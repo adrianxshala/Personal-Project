@@ -1,0 +1,26 @@
+.kontakti {
+  background: url(./assets//icon/gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+}
+
+.scroll-content {
+  display: flex;
+}
+
+.scroll-image {
+  width: 200px; /* Adjust as needed */
+  height: 70px; /* Adjust as needed */
+  margin: 0 10px; /* Adjust spacing between images */}
